@@ -1,0 +1,16 @@
+{
+  "name": "gql-sample-yoga-server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@graphql-yoga/plugin-defer-stream": "^2.0.5",
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^4.0.5"
+  }
+}
