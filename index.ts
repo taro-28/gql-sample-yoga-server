@@ -18,7 +18,7 @@ const typeDefs = /* GraphQL */ `
 
   type Query {
     company(id: String!): Company
-    users(companyId: String!): [User!]!
+    users(companyId: String): [User!]!
   }
 `;
 
